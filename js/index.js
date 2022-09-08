@@ -1,12 +1,14 @@
 // hare krishna
+// window.matchMedia('(max-width: 414px)').addListener((ev) => {
+//   console.log(ev.matches);
+// });
+let pr = window.devicePixelRatio;
+console.log(pr);
+
 let showResult = (details) => {
-  let myDiv = document.querySelector(".element-details");
+  myDiv = document.createElement('section');
+  myDiv.className = "element-details";
   myDiv.style.display = "flex";
-
-  if (myDiv.hasChildNodes()) {
-    myDiv.innerHTML = '';
-  }
-
 
   if (details) {
     let i = new Image;
@@ -22,14 +24,26 @@ let showResult = (details) => {
     p.textContent = "Data not available !";
     myDiv.append(p);
   }
-
+  return myDiv;
 }
 
 
 document.body.addEventListener('click', (ev) => {
+  let checkEl = document.querySelector('.element-details');
+  if (checkEl) {
+    checkEl.remove();
+  }
+
   if (ev.target.className === "box-content") {
+
     let el = ev.target.nextElementSibling.textContent.trim();
     let d = data[el];
-    showResult(d);
+    let myDiv = showResult(d);
+
+    if (window.matchMedia('(max-width: 414px)').matches) {
+      ev.target.parentElement.insertAdjacentElement('afterend', myDiv);
+    } else {
+      document.querySelector("body").append(myDiv);
+    }
   }
 })

@@ -91,3 +91,42 @@ body {
   margin-left: 20px;
 }
 
+@media (max-width: 414px) {
+  .container {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .element-details {
+    background-color: #f7f1ad;
+    flex-direction: column;
+    padding: 0;
+    margin-top: 1rem;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #c4b614;
+    border-bottom: 1px solid #c4b614;
+    box-shadow: none;
+  }
+
+  .element-details p {
+    font-size: 20px;
+    padding: 1rem;
+    margin-left: 0;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
+  }
+
+  .element-details img {
+    width: 300px;
+    margin-top: 1rem;
+  }
+  .n-element {
+    margin-top: 10px;
+    min-width: 200px;
+  }
+}
+
