@@ -54,5 +54,28 @@ const data = {
   ],
   "Lithium" : ['https://ccg1lithium.weebly.com/uploads/1/9/5/8/19586997/header_images/1367668511.jpg', `
     Canada had limited production of lithium from 2014 to 2019 and none in 2020. Several companies are currently working to develop lithium projects from traditional hard rock mining to unconventional sources such as oilfield brines and industrial wastewaters, in Ontario, Quebec, Alberta, Manitoba and Saskatchewan. These projects range from early exploration to an advanced stage.
+    `],
+  "Beryllium": ['https://beryllium.com/-/media/beryllium_com/images/overview-sources.jpg?h=300&w=480&la=en&hash=637520CC87DA5573CC4D54617FAB13D9',`
+Beryllium is a chemical element with the symbol Be and atomic number 4. It is a steel-gray, strong, lightweight and brittle alkaline earth metal. It is a divalent element that occurs naturally only in combination with other elements to form minerals.
+Atomic weight (average mass of the atom): 9.012182
+Density: 1.85 grams per cubic centimeter
+Phase at room temperature: Solid
+Melting point: 2,348.6 degrees Fahrenheit (1,287 degrees Celsius)
+Boiling point: 4,479.8 F (2,471 C)
+    `
+  ],
+  "Boron":['https://www.rsc-cdn.org/www.rsc.org/periodic-table/content/Images/Elements/Boron-L.jpg?6.2.65',`
+    Boron is a non metallic element and the only non-metal of the group 13 of the periodic table the elements. Boron is electron-deficient, possessing a vacant p-orbital. It has several forms, the most common of which is amorphous boron, a dark powder, unreactive to oxygen, water, acids and alkalis.
+Density: 1.85 grams per cubic centimeter
+Phase at room temperature: Solid
+Melting point: 2,348.6 degrees Fahrenheit (1,287 degrees Celsius)
+Boiling point: 4,479.8 F (2,471 C)
+    `],
+  "Carbon":['https://static.scientificamerican.com/blogs/cache/file/A8CC0FBE-5E9C-4C05-BCA96622FCD1A8A1_source.jpg?w=590&h=800&66A48EF6-7220-4065-892A565E4A898594',`
+Carbon (from Latin: carbo "coal") is a chemical element with the symbol C and atomic number 6. It is nonmetallic and tetravalent—its atom making four electrons available to form covalent chemical bonds. It belongs to group 14 of the periodic table. Carbon makes up only about 0.025 percent of Earth's crust.
+Density: 2.2670 grams per cubic centimeter
+Phase at Room Temperature: Solid
+Melting Point: 6,422 degrees Fahrenheit (3,550 degrees Celsius)
+Boiling Point: 6,872 F (3,800 C) (sublimation)
     `]
 }
